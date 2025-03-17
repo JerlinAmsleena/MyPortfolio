@@ -134,7 +134,7 @@ const Portfolio = () => {
                                     title: "HireXpert",
                                     description: "HireXpert is an AI-driven Resume Analyzer for efficient candidate screening.",
                                     image: "https://res.cloudinary.com/dkyjnn3of/image/upload/v1742191331/logo1_redzuu.png",
-                                    link: "https://github.com/JerlinAmsleena/HireXpert",
+                                    link: "https://github.com/ThoufeekRZ/HireExpert",
                                     concepts: ["React", "Java", "MySQL", "AI", "Python"]
                                 },
                                 {
@@ -152,27 +152,6 @@ const Portfolio = () => {
                                     concepts: ["Java", "Queue"]
                                 },
                                 {
-                                    title: "SkillJet",
-                                    description: "SkillJet is a job application platform connecting job seekers with employers for seamless hiring.",
-                                    image: "https://res.cloudinary.com/dkyjnn3of/image/upload/v1742191332/skillJet_egxrdm.png",
-                                    link: "https://jerlinamsleenaj-7469-8443.zcodeusers.in/JS_Projects/index.html",
-                                    concepts: ["Javascript", "Html", "CSS"]
-                                },
-                                {
-                                    title: "Zomato",
-                                    description: "A Zomato-inspired UI design built using HTML and CSS.",
-                                    image: "https://res.cloudinary.com/dkyjnn3of/image/upload/v1742191332/zomato_elp9yl.png",
-                                    link: "https://jerlinamsleenaj-7469-8443.zcodeusers.in/Zomato/mainpage.html",
-                                    concepts: ["Html", "CSS"]
-                                },
-                                {
-                                    title: "4 Pics in 1 Word",
-                                    description: `Developed a fun and interactive "4 Pics 1 Word" game in Scratch, enhancing problem-solving and creativity.`,
-                                    image: "https://res.cloudinary.com/dkyjnn3of/image/upload/v1742191331/4pic_kzsgp3.png",
-                                    link: "https://scratch.mit.edu/projects/1039054027/fullscreen/",
-                                    concepts: ["Scratch", "Loop", "Function", "Condition"]
-                                },
-                                {
                                     title: "Thread Race",
                                     description: `A race simulation where multiple threads compete to reach the finish line first.`,
                                     image: "https://res.cloudinary.com/dkyjnn3of/image/upload/v1742196257/Screenshot_from_2025-03-17_12-54-00_iuzl6l.png",
@@ -185,6 +164,20 @@ const Portfolio = () => {
                                     image: "https://res.cloudinary.com/dkyjnn3of/image/upload/v1742196842/header_a3gxwu.png",
                                     link: "https://github.com/JerlinAmsleena/OneToOneChat",
                                     concepts: ["Java", "Thread","Condition"]
+                                },
+                                {
+                                    title: "SkillJet",
+                                    description: "SkillJet is a job application platform connecting job seekers with employers for seamless hiring.",
+                                    image: "https://res.cloudinary.com/dkyjnn3of/image/upload/v1742191332/skillJet_egxrdm.png",
+                                    link: "https://jerlinamsleenaj-7469-8443.zcodeusers.in/JS_Projects/index.html",
+                                    concepts: ["Javascript", "Html", "CSS"]
+                                },
+                                {
+                                    title: "Zomato",
+                                    description: "A Zomato-inspired UI design built using HTML and CSS.",
+                                    image: "https://res.cloudinary.com/dkyjnn3of/image/upload/v1742191332/zomato_elp9yl.png",
+                                    link: "https://jerlinamsleenaj-7469-8443.zcodeusers.in/Zomato/mainpage.html",
+                                    concepts: ["Html", "CSS"]
                                 },
                                 {
                                     title: "Filter Fun",
@@ -207,6 +200,15 @@ const Portfolio = () => {
                                     link: "https://jerlinamsleenaj-7469-8443.zcodeusers.in/JS_Assignment023/",
                                     concepts: ["Scratch", "Loop", "Function", "Condition"]
                                 },
+                                {
+                                    title: "4 Pics in 1 Word",
+                                    description: `Developed a fun and interactive "4 Pics 1 Word" game in Scratch, enhancing problem-solving and creativity.`,
+                                    image: "https://res.cloudinary.com/dkyjnn3of/image/upload/v1742191331/4pic_kzsgp3.png",
+                                    link: "https://scratch.mit.edu/projects/1039054027/fullscreen/",
+                                    concepts: ["Scratch", "Loop", "Function", "Condition"]
+                                },
+                                
+                                
                                 {
                                     title: "Burst Balloons",
                                     description: `A fun game where you pop balloons before they escape!`,
@@ -245,7 +247,8 @@ const Portfolio = () => {
 
 
 
-                    {section === "Contact" && <p> ZS ID: ZSTTK388 | Mail ID: jerlinamsleena.j@zohocorp.com | Phone Number: 9344035151</p>}
+                    {/* {section === "Contact" && <p> ZS ID: ZSTTK388 | Mail ID: jerlinamsleena.j@zohocorp.com | Phone Number: 9344035151</p>} */}
+                    {section === "Contact" && <div> <p> <strong> ZS ID: </strong> ZSTTK388 </p> <p> <strong>Mail ID:</strong> jerlinamsleena.j@zohocorp.com</p> <p> <strong>Phone Number:</strong> 9344035151</p> </div>}
                 </motion.section>
             ))}
 
