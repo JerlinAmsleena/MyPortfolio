@@ -73,7 +73,6 @@ body::-webkit-scrollbar {
 
 .nav-item:hover {
     color: #a855f7;
-    /* Change color on hover */
 }
 
 /* Hero Section */
@@ -94,10 +93,7 @@ body::-webkit-scrollbar {
     animation: fadeIn 1s ease-in-out;
 }
 
-/* .skills-section{
-    width: 800px;
-    height: 500px;
-} */
+
 h2 {
     color: #a855f7;
     font-size: 2rem;
@@ -148,27 +144,6 @@ h2 {
     font-weight: bold;
 }
 
-/* .skills-list {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-
-.skills-list span {
-    background-color: #222;
-    padding: 12px 18px;
-    border-radius: 8px;
-    color: #a855f7;
-    font-size: 1rem;
-    transition: all 0.3s ease-in-out;
-}
-
-.skills-list span:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 10px rgba(168, 85, 247, 0.6);
-} */
 .projects-list {
     display: flex;
     flex-wrap: wrap;
@@ -476,60 +451,3 @@ h2 {
     box-shadow: 0 4px 10px rgba(138, 52, 219, 0.3);
 }
 
-/* .hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 4rem 10%;
-    height: 100vh;
-    background: linear-gradient(to right, #0d0d0d, #3b0764);
-}
-
-.hero-text {
-    flex: 1;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    position: relative;
-    padding: 2rem;
-}
-
-.hero-text h1 {
-    font-size: 3rem;
-    font-weight: bold;
-    position: absolute;
-    top: 10px;
-    left: 20px;
-}
-
-.hero-text span {
-    color: #a855f7;
-}
-
-.hero-text h2 {
-    font-size: 2rem;
-    margin-top: 5rem;
-}
-
-.hero-text p {
-    font-size: 1.2rem;
-    margin-top: 1rem;
-    max-width: 80%;
-    text-align: left;
-}
-
-
-.hero-image {
-    width: 500px;
-    height: 500px;
-    background-image: url('https://res.cloudinary.com/dkyjnn3of/image/upload/v1742191331/JerlinImg1_qrhfam.jpg');
-    background-size: cover;
-    background-position: 0px -77px;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    border: 5px solid #a855f7;
-    box-shadow: 0px 0px 15px rgba(168, 85, 247, 0.5);
-    position: relative;
-} */

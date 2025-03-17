@@ -121,19 +121,7 @@ const Portfolio = () => {
 
     return (
         <div className="portfolio-container">
-            {/* Navbar */}
-            {/* <nav className="navbar">
-                <motion.h2 className="logo" initial={{ y: -50, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5 }}>
-                    JA
-                </motion.h2>
-                <ul className="nav-links">
-                    {["About", "Skills", "Projects", "Contact"].map((item, index) => (
-                        <motion.li key={index} initial={{ y: -30, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.2 * index, duration: 0.5 }}>
-                            <a href={`#${item.toLowerCase()}`}>{item}</a>
-                        </motion.li>
-                    ))}
-                </ul>
-            </nav> */}
+            
             <nav className="navbar">
                 <motion.h2
                     className="logo"
@@ -270,10 +258,7 @@ const Portfolio = () => {
                 </motion.section>
             ))}
 
-            {/* Footer */}
-            {/* <motion.footer className="footer" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1 }}>
-                <p>© 2025 Backend Developer. All Rights Reserved.</p>
-            </motion.footer> */}
+           
         </div>
     );
 };
