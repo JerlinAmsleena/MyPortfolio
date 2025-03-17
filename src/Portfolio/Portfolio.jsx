@@ -172,6 +172,49 @@ const Portfolio = () => {
                                     link: "https://scratch.mit.edu/projects/1039054027/fullscreen/",
                                     concepts: ["Scratch", "Loop", "Function", "Condition"]
                                 },
+                                {
+                                    title: "Thread Race",
+                                    description: `A race simulation where multiple threads compete to reach the finish line first.`,
+                                    image: "https://res.cloudinary.com/dkyjnn3of/image/upload/v1742196257/Screenshot_from_2025-03-17_12-54-00_iuzl6l.png",
+                                    link: "https://github.com/JerlinAmsleena/ThreadRace",
+                                    concepts: ["Java", "Socket","Thread"]
+                                },
+                                {
+                                    title: "1-1 Chat",
+                                    description: `A one-on-one chat application using Java sockets for real-time communication.`,
+                                    image: "https://res.cloudinary.com/dkyjnn3of/image/upload/v1742196842/header_a3gxwu.png",
+                                    link: "https://github.com/JerlinAmsleena/OneToOneChat",
+                                    concepts: ["Java", "Thread","Condition"]
+                                },
+                                {
+                                    title: "Filter Fun",
+                                    description: `Filter Fun is a web-based image filtering tool using HTML, CSS, and JavaScript with the <canvas> tag.`,
+                                    image: "https://res.cloudinary.com/dkyjnn3of/image/upload/v1742195340/black-and-white-filter-before-and-after-comparison-for-a-young-lady-removebg-preview_s19xsh.png",
+                                    link: "https://jerlinamsleenaj-7469-8443.zcodeusers.in/FilterFun/",
+                                    concepts: ["Html", "CSS", "Canvas","JavaScript"]
+                                },
+                                {
+                                    title: "Timer",
+                                    description: `A simple timer that counts up or down, tracking time efficiently.`,
+                                    image: "https://res.cloudinary.com/dkyjnn3of/image/upload/v1742195339/images-removebg-preview_dongdx.png",
+                                    link: "https://jerlinamsleenaj-7469-8443.zcodeusers.in/JS_Assignment026/",
+                                    concepts: ["Html", "CSS", "JavaScript"]
+                                },
+                                {
+                                    title: "Rock-Paper-Scissors-Lizard-Spock",
+                                    description: `A fun, interactive game where you play Rock-Paper-Scissors-Lizard-Spock against the computer.`,
+                                    image: "https://res.cloudinary.com/dkyjnn3of/image/upload/v1742195663/Screenshot_from_2025-03-17_12-43-40-removebg-preview_dc2xjs.png",
+                                    link: "https://jerlinamsleenaj-7469-8443.zcodeusers.in/JS_Assignment023/",
+                                    concepts: ["Scratch", "Loop", "Function", "Condition"]
+                                },
+                                {
+                                    title: "Burst Balloons",
+                                    description: `A fun game where you pop balloons before they escape!`,
+                                    image: "https://res.cloudinary.com/dkyjnn3of/image/upload/v1742196099/Screenshot_from_2025-03-17_12-51-20_ikuhfp.png",
+                                    link: "https://scratch.mit.edu/projects/1034288034/fullscreen/",
+                                    concepts: ["Scratch", "Loop","Audio"]
+                                },
+                                
                             ].map((project, i) => (
                                 <motion.div
                                     key={i}
