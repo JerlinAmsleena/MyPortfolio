@@ -149,7 +149,7 @@ body::-webkit-scrollbar {
     /* Fixed width */
     height: 500px;
     /* Fixed height */
-    background-image: url('./src/images/JerlinImg1.jpg');
+    background-image: url('https://res.cloudinary.com/dkyjnn3of/image/upload/v1742191331/JerlinImg1_qrhfam.jpg');
     background-size: cover;
     /* background-position: center; */
     background-position: 0px -77px;

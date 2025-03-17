@@ -58,7 +58,7 @@ const Portfolio = () => {
                     <h1>
                         Hi, I'm <span>Jerlin Amsleena</span>
                     </h1>
-                    <h2 style={{ color: "white" }}>Backend Developer</h2>
+                    <h2 style={{ color: "white" }}>Backend Trainee</h2>
                     <p>
                         {/* Passionate and driven, I am always eager to learn and embrace new challenges with a strong mindset. I thrive in dynamic environments, continuously improving my skills and adapting to new technologies. With a problem-solving approach and a keen eye for detail, I strive to deliver quality results in everything I do */}
                         I am from Pavoorchatram, driven by a passion for learning and embracing new challenges. With a problem-solving mindset and keen attention to detail, I strive to deliver high-quality results in every task I undertake.
@@ -95,13 +95,13 @@ const Portfolio = () => {
                         <div className="skills-listFull">
                             <div className="skills-list">
                                 {[
-                                    { name: "Java", img: "./src/images/java.jpg" },
-                                    { name: "JavaScript", img: "./src/images/javascript.jpg" },
-                                    { name: "MySQL", img: "./src/images/mysql.png" },
-                                    { name: "React JS", img: "./src/images/react.png" },
+                                    { name: "Java", img: "https://res.cloudinary.com/dkyjnn3of/image/upload/v1742191330/java_zs9qjz.png" },
+                                    { name: "JavaScript", img: "https://res.cloudinary.com/dkyjnn3of/image/upload/v1742191330/javascript_bkjvdj.png" },
+                                    { name: "MySQL", img: "https://res.cloudinary.com/dkyjnn3of/image/upload/v1742191331/mysql_gakere.png" },
+                                    { name: "React JS", img: "https://res.cloudinary.com/dkyjnn3of/image/upload/v1742191332/react_uuvlhr.png" },
 
-                                    { name: "HTML & CSS", img: "./src/images/html-css.png" },
-                                    { name: "Scratch", img: "./src/images/scratch.png" }
+                                    { name: "HTML & CSS", img: "https://res.cloudinary.com/dkyjnn3of/image/upload/v1742191330/html-css_splrli.png" },
+                                    { name: "Scratch", img: "https://res.cloudinary.com/dkyjnn3of/image/upload/v1742191331/scratch_umjjhs.png" }
                                 ].map((skill, i) => (
                                     <motion.div
                                         key={i}
@@ -133,42 +133,42 @@ const Portfolio = () => {
                                 {
                                     title: "HireXpert",
                                     description: "HireXpert is an AI-driven Resume Analyzer for efficient candidate screening.",
-                                    image: "./src/images/logo1.png",
+                                    image: "https://res.cloudinary.com/dkyjnn3of/image/upload/v1742191331/logo1_redzuu.png",
                                     link: "https://github.com/JerlinAmsleena/HireXpert",
                                     concepts: ["React", "Java", "MySQL", "AI", "Python"]
                                 },
                                 {
                                     title: "Banking System",
                                     description: "A console-based Java banking system with role-based access, account approval, and MySQL integration for secure data management.",
-                                    image: "./src/images/bank.png",
+                                    image: "https://res.cloudinary.com/dkyjnn3of/image/upload/v1742191330/bank_crtstz.png",
                                     link: "https://github.com/JerlinAmsleena/BankConsoleProject",
                                     concepts: ["Java", "MySQL"]
                                 },
                                 {
                                     title: "Printer Job Scheduler",
                                     description: "A queue-based system for managing and processing print jobs efficiently in Java.",
-                                    image: "./src/images/lQ1.png",
+                                    image: "https://res.cloudinary.com/dkyjnn3of/image/upload/v1742191331/lQ1_xkuzze.png",
                                     link: "https://github.com/JerlinAmsleena/PrinterJobScheduler",
                                     concepts: ["Java", "Queue"]
                                 },
                                 {
                                     title: "SkillJet",
                                     description: "SkillJet is a job application platform connecting job seekers with employers for seamless hiring.",
-                                    image: "./src/images/skillJet.png",
+                                    image: "https://res.cloudinary.com/dkyjnn3of/image/upload/v1742191332/skillJet_egxrdm.png",
                                     link: "https://jerlinamsleenaj-7469-8443.zcodeusers.in/JS_Projects/index.html",
                                     concepts: ["Javascript", "Html", "CSS"]
                                 },
                                 {
                                     title: "Zomato",
                                     description: "A Zomato-inspired UI design built using HTML and CSS.",
-                                    image: "./src/images/zomato.png",
+                                    image: "https://res.cloudinary.com/dkyjnn3of/image/upload/v1742191332/zomato_elp9yl.png",
                                     link: "https://jerlinamsleenaj-7469-8443.zcodeusers.in/Zomato/mainpage.html",
                                     concepts: ["Html", "CSS"]
                                 },
                                 {
                                     title: "4 Pics in 1 Word",
                                     description: `Developed a fun and interactive "4 Pics 1 Word" game in Scratch, enhancing problem-solving and creativity.`,
-                                    image: "./src/images/4pic.png",
+                                    image: "https://res.cloudinary.com/dkyjnn3of/image/upload/v1742191331/4pic_kzsgp3.png",
                                     link: "https://scratch.mit.edu/projects/1039054027/fullscreen/",
                                     concepts: ["Scratch", "Loop", "Function", "Condition"]
                                 },
