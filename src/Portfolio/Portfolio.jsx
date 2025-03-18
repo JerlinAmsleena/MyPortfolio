@@ -159,7 +159,7 @@ const Portfolio = () => {
                     <h1>
                         Hi, I'm <span>Jerlin Amsleena</span>
                     </h1>
-                    <h2 style={{ color: "white" }}>Backend Trainee</h2>
+                    <h2 style={{ color: "white" }}>Backend Developer</h2>
                     <p>
                         {/* Passionate and driven, I am always eager to learn and embrace new challenges with a strong mindset. I thrive in dynamic environments, continuously improving my skills and adapting to new technologies. With a problem-solving approach and a keen eye for detail, I strive to deliver quality results in everything I do */}
                         I am from Pavoorchatram, driven by a passion for learning and embracing new challenges. With a problem-solving mindset and keen attention to detail, I strive to deliver high-quality results in every task I undertake.
