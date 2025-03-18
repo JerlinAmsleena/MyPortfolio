@@ -75,6 +75,27 @@ body::-webkit-scrollbar {
     color: #a855f7;
 }
 
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #aaa;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.nav-item.active {
+    color: #a855f7; /* Highlight color */
+    font-weight: bold;
+    border-bottom: 2px solid #a855f7;
+}
+
+
 /* Hero Section */
 
 

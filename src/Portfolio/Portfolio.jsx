@@ -118,10 +118,32 @@ const Portfolio = () => {
             })
 
     const tabs = ["All", "Java", "Javascript", "HTML&CSS", "Scratch"]
+    const [activeLink, setActiveLink] = useState("about");
+    const sections = ["about", "skills", "projects", "contact"];
+    useEffect(() => {
+        const handleScroll = () => {
+            let currentSection = "about";
+            
+            sections.forEach((section) => {
+                const sectionElement = document.getElementById(section);
+                if (sectionElement) {
+                    const rect = sectionElement.getBoundingClientRect();
+                    if (rect.top <= 150 && rect.bottom >= 150) {
+                        currentSection = section;
+                    }
+                }
+            });
+
+            setActiveLink(currentSection);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
 
     return (
         <div className="portfolio-container">
-            
+
             <nav className="navbar">
                 <motion.h2
                     className="logo"
@@ -138,8 +160,17 @@ const Portfolio = () => {
                         { name: "Projects", icon: <Folder size={18} /> },
                         { name: "Contact", icon: <Mail size={18} /> }
                     ].map((item, index) => (
-                        <motion.li key={index} initial={{ y: -30, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.2 * index, duration: 0.5 }}>
-                            <a href={`#${item.name.toLowerCase()}`} className="nav-item">
+                        <motion.li
+                            key={index}
+                            initial={{ y: -30, opacity: 0 }}
+                            animate={{ y: 0, opacity: 1 }}
+                            transition={{ delay: 0.2 * index, duration: 0.5 }}
+                        >
+                            <a
+                                href={`#${item.name.toLowerCase()}`}
+                                className={`nav-item ${activeLink === item.name.toLowerCase() ? "active" : ""}`}
+                                onClick={() => setActiveLink(item.name.toLowerCase())}
+                            >
                                 {item.icon} <span>{item.name}</span>
                             </a>
                         </motion.li>
@@ -258,7 +289,7 @@ const Portfolio = () => {
                 </motion.section>
             ))}
 
-           
+
         </div>
     );
 };
